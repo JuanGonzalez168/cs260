@@ -1,0 +1,17 @@
+
+
+void remove(node* head,int value) {
+
+    node* curr = head;
+
+    while (curr!=nullptr && curr->value != value) {
+	curr = curr->next;
+    }
+
+    // curr is either nullptr or pointing to node to remove
+
+    if (curr != nullptr) {
+	
+	
+    }
+}

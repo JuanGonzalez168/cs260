@@ -1,0 +1,7 @@
+
+
+int hashFunction(const char* key) {
+
+
+    
+}

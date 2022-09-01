@@ -1,0 +1,26 @@
+id = <letter> <letter>|<digit>
+letter = a|b|c....
+digit = 0|1|...
+
+
+<pal> = empty string | <ch> | <ch> <pal> <ch>
+<ch> = ...
+
+"mom"
+"mad"
+
+aabb
+aaaabbbb
+aaabb
+abab
+
+    aabb
+   a    b
+
+
++abc
+++ab+cd
++ +ab +cd
+
+*++ab+cd+ef 
+
