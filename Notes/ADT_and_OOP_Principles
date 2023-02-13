@@ -1,0 +1,71 @@
+(Data stuctures) is a technique for increaseing modularity of a program 
+by storing data in a organized fashionto allow for easy acessibilty. 
+The use of a data structure should be able to process, retrieve and update data efficiently.
+
+(Data abstraction OR ADTs) is a technique for builing "walls" between a program
+and its data structures. During the design of a solution, you will discover 
+the need to support several operations on data and therefore need to define an (ADT).
+
+(Object) has a set of characteristics and behaviours related to a solution.
+Each object is responsible for some aspect of a solution. A set of objects having the
+type is called a (class). An object of a class is know as an (instance) of the class
+and the action of creating an object is called (instantiation).
+
+(Classes) combine (Attributes) -or characteristics- to be the individual data iteams specified for that class.
+(Bahaviors) -or (Member functions)- are operations specified in the class that should manipulate the defined
+attributes -or (Data members). Typically, a group of multiple functions (Methods for that class)
+are defined to manipulate the data members in some way or another. Functions implement algorithms, which are
+step-by-step recipes for performing a task within a finite period of time.
+
+(Encapsulation) is a technique that hides inner details. Think of a clock that displays time. Behind the scenes,
+the clock has an intricate mechanical design implementing gears, electricity, quartz crystal, and more. The fortunate
+news, is that users don't need to know how clock neccessarly work from the inside to read a clock, 
+thus encapsulating unimportant information from the user.
+
+(Inheritance) allows you to reuser classes you defined earlier for related purpose by extending that implementaion
+or making slight modifications, such as allowing you pass in an extra parameter to same function. Inheritance may
+make it impossible for the compiler to determine which operation you require in a paticular situation, but
+(Polymorphism) enables this determination to be made at execution time, by simply noting the meaning of an operation
+is unknown until runtime. 
+
+(Cohesion) each module should perform on well-defined task. For example, a highly cohesive function called sort should
+do nothing but sort values. The name promotes self-documenting, easy-to-understand code. If the function also prints
+the sorted values, it's not cohesive. Highly cohesive module is easy to reuse in other software projects and easier to
+maintain by just fixing a logical error and not dealing printing sorted values or etc.
+
+(Coupling) is a measure of the dependence among modules. This dependece, for example, could involve sharing data
+structures or calling each other's methods(highly coupled), but should be refrained upon as much as possible. That 
+is modules should be (loosely coupled).
+
+Data abstraction focuses on what the operations do with the collection of data, instead of on
+how you implement them. The other modules of the solution “know” what operations they can perform,
+but they do not know how the data is stored or how the operations are performed. Abstraction helps 
+you identify details that you should hide from public view—details that should not be in the specification
+but rather should be private. The principle of information hiding tells you not only to hide such details within 
+a module, but also to ensure that no other module can tamper with these hidden details. 
+
+Black Box
+
+      Unorganized data
+            |
+           -> 
+My Program  |  SortFunction       
+           <-
+            |
+      Sorted data     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
