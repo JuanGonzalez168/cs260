@@ -56,16 +56,9 @@ My Program  |  SortFunction
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+(Private Data Fields) data memebers for a class should be restricted to the private section of a class.
+The benefit of this decision, results in outside code not being able to directly manipulate data freely and
+must be declared by a programmer with getters(Accessor method) and setters(mutator method) to retrive and send data. 
+This leads to fewer bugs by mistakes involving the use of functions declared by a user.
 
 
