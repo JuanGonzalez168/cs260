@@ -83,6 +83,9 @@ Vector** _doublePtr = nullptr;
 Vector* _vector_ptr = new Vector{10,20};
 Vector** _doublePTr = &_vector_ptr;
 
+Acccessing the address of the struct
+std::cout << &(**_doublePtr);
+
 Accessing struct requires derefering double pointer inside a parenthesis,
 std::cout << (**_doublePtr).x;
 
