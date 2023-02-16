@@ -61,4 +61,12 @@ The benefit of this decision, results in outside code not being able to directly
 must be declared by a programmer with getters(Accessor method) and setters(mutator method) to retrive and send data. 
 This leads to fewer bugs by mistakes involving the use of functions declared by a user.
 
-
+(Pointer Arithmetic)
+In C++, a double pointer is a pointer that points to another pointer. The purpose of a double pointer is to allow
+the manipulation of pointers to pointers, which can be useful in a variety of situations. One common use of double pointers
+is in dynamic memory allocation, where you might need to create a pointer to an array of pointers, each of which points to 
+a block of memory. In this case, a double pointer can be used to create an array of pointers, with each element of the array 
+pointing to a dynamically allocated block of memory. Double pointers can also be used to pass pointers as arguments to functions,
+where the function needs to modify the pointer. In this case, passing a double pointer allows the function to modify the pointer 
+being passed in. Overall, the purpose of a double pointer in C++ is to provide an additional layer of indirection, allowing for 
+more flexible and powerful manipulation of pointers.
