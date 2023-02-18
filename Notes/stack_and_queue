@@ -1,6 +1,9 @@
-(Stack) Basics
+(Stack) Last in First out
   -Push() = add value at the top of the stack
   -Pop() = remove value at the top of the stack
   -Peek() = check value at the top of the stack
   -isEmpty() = is stack empty
 
+
+(Queue) First in Last out
+  -Enqueue
