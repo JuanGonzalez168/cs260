@@ -1,1 +1,30 @@
-Binary three
+Tree
+===========
+
+
+Tree:
+
+Binary Tree:
+
+Binary Search Tree:
+
+
+      (Tree A)
+       
+        [50]
+      /      \
+   [25]      [75]
+    /\        /\
+ [10][30]  [60][80]
+
+
+Height  = n <= (2^h -1)
+
+
+In-order: Sorted order  10,25,30,50,60,75,80 Start from the left most leaf
+Print(left) -> Print(parent) -> IF(Right Node has Children) Reapeat : ELSE print(right) and Retract a level to the root node.
+
+Pre-order: 50,25,10,30,75,60,80 Follow the root
+Print(left) until reached leaf, IF(right Node) Print(right) until back to root.
+
+Post-order: 
