@@ -77,6 +77,20 @@ Post-order: 10,30,25,60,80,75,50
  [10][30]  [60][80]
 
 
+Searching in a binary tree depends on how well the tree is balanced.
+
+OPERATION  | AVERAGE CASE |  WORST CASE
+=======================================
+Retrieval:     O(log N)         O(N)
+
+Insertion:     O(log N)         O(N)
+
+Removal:       O(log N)         O(N)
+
+Traversal:     O(N)             O(N)
+
+
+
 
 
 
