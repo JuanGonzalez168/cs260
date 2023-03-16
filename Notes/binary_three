@@ -50,7 +50,9 @@ similar to a linked list. Only one child(left or right) per parent.
       [e]
 ==============
 
-Minimum height of Binary Tree: Is height of the binary tree with 
+Minimum height of Binary Tree: Is height of the binary tree that must be 
+true with number nodes in this inequality,  h-1 <  logBASE2 (n + 1) <= h.
+If log is not integer, round up.
 
 Binary Search Tree:
 
@@ -63,7 +65,7 @@ Binary Search Tree:
  [10][30]  [60][80]
 
 
-Height  = n <= (2^h -1)
+
 
 
 In-order: Sorted order  10,25,30,50,60,75,80 Start from the left most leaf and print the left branch.
