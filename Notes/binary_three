@@ -54,7 +54,19 @@ Minimum height of Binary Tree: Is height of the binary tree that must be
 true with number nodes in this inequality,  h-1 <  logBASE2 (n + 1) <= h.
 If log is not integer, round up.
 
-Binary Search Tree:
+
+Start at root and go left retrieving each node until left leaf, recurse back
+to parent and retrieve right node. Repeat if more nodes.
+Pre-order: 50,25,10,30,75,60,80 
+
+Start at root and go left until left leaf and retrieve, recurse back to parent and
+retrieve and reapeat steps until right leaf and retrieve and recurse back to root.
+In-order:  10,25,30,50,60,75,80 
+
+Start at root and go left until left leaf and retrieve, go right and retrieve until
+right leaf, retrieve, and recurse back to parent and retrieve ... until root.
+Post-order: 10,30,25,60,80,75,50
+
 
       (Tree A)
        
@@ -68,10 +80,3 @@ Binary Search Tree:
 
 
 
-In-order: Sorted order  10,25,30,50,60,75,80 Start from the left most leaf and print the left branch.
-Print(left) -> Print(parent) -> IF(Right Node has Children) Reapeat : ELSE print(right) and Retract a level to the root node.
-
-Pre-order: 50,25,10,30,75,60,80 Follow the root
-Print(left) until reached leaf, IF(right Node) Print(right) until back to root.
-
-Post-order: 
