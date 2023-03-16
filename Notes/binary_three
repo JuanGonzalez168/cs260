@@ -90,7 +90,8 @@ Removal:       O(log N)         O(N)
 Traversal:     O(N)             O(N)
 
 
-
+Most common way to implement a binary tree is with a link-based approach, 
+but arrays work well with a prioty queue.
 
 
 
