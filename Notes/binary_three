@@ -1,13 +1,58 @@
-Tree
+Trees
 ===========
 
 
-Tree:
+Tree: A tree has (n) number of child nodes.
 
-Binary Tree:
+Binary Tree: A tree with (two) child nodes.
+====================     
+      (Tree A)
+       
+        [50]
+      /      \
+   [25]      [75]
+    /\        /\
+ [10][30]  [60][80]
+
+======================
+
+Leaf: A node with no children.
+
+Subtree: A tree within the main tree at a node with it's decendents.
+
+Height: Number of nodes on the longest path from the root to a leaf. If the
+tree is empty, then height = 0. Add a the root node to tree, then height = 1.
+
+
+Full Binary Tree: No missing nodes from max height and full from left to right subtrees.
+You cannot add nodes to a full binary tree without increasing its height. The formula for
+find the number of nodes at particular height in the binary tree is 2^(height-1). 
+It's base two because of max two children. To find the total number nodes in a tree,
+2^(h) -1. 
+
+Complete Binary Tree: All nodes are full left and right below the max height of the tree or height -1.
+All nodes at height-2 have two children, which are height-1. If height-1 has only one child then,
+it's a left child.
+
+Balanced Tree: Left and right subtree are equal or differ in height by +1 or -1 node level.
+
+Maximum height of Binary Tree: Is equal to the number of nodes in the tree. This is
+similar to a linked list. Only one child(left or right) per parent.
+==============
+[a]
+ \
+  [b]
+     \ 
+     [c]
+        \ 
+        [d]
+        /
+      [e]
+==============
+
+Minimum height of Binary Tree: Is height of the binary tree with 
 
 Binary Search Tree:
-
 
       (Tree A)
        
@@ -21,7 +66,7 @@ Binary Search Tree:
 Height  = n <= (2^h -1)
 
 
-In-order: Sorted order  10,25,30,50,60,75,80 Start from the left most leaf
+In-order: Sorted order  10,25,30,50,60,75,80 Start from the left most leaf and print the left branch.
 Print(left) -> Print(parent) -> IF(Right Node has Children) Reapeat : ELSE print(right) and Retract a level to the root node.
 
 Pre-order: 50,25,10,30,75,60,80 Follow the root
